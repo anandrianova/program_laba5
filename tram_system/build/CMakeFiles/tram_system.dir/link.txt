@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tram_system.dir/src/commands.cpp.o CMakeFiles/tram_system.dir/src/main.cpp.o CMakeFiles/tram_system.dir/src/tram.cpp.o CMakeFiles/tram_system.dir/src/stop.cpp.o CMakeFiles/tram_system.dir/src/tram_system.cpp.o -o tram_system 

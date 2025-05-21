@@ -1,0 +1,3 @@
+/home/an_andrianova/program_lab5/tram_system/build/CMakeFiles/tram_system.dir
+/home/an_andrianova/program_lab5/tram_system/build/CMakeFiles/edit_cache.dir
+/home/an_andrianova/program_lab5/tram_system/build/CMakeFiles/rebuild_cache.dir

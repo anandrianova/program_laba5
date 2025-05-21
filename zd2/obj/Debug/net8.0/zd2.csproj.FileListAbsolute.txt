@@ -1,0 +1,14 @@
+/home/an_andrianova/program_lab5/zd2/bin/Debug/net8.0/zd2
+/home/an_andrianova/program_lab5/zd2/bin/Debug/net8.0/zd2.deps.json
+/home/an_andrianova/program_lab5/zd2/bin/Debug/net8.0/zd2.runtimeconfig.json
+/home/an_andrianova/program_lab5/zd2/bin/Debug/net8.0/zd2.dll
+/home/an_andrianova/program_lab5/zd2/bin/Debug/net8.0/zd2.pdb
+/home/an_andrianova/program_lab5/zd2/obj/Debug/net8.0/zd2.GeneratedMSBuildEditorConfig.editorconfig
+/home/an_andrianova/program_lab5/zd2/obj/Debug/net8.0/zd2.AssemblyInfoInputs.cache
+/home/an_andrianova/program_lab5/zd2/obj/Debug/net8.0/zd2.AssemblyInfo.cs
+/home/an_andrianova/program_lab5/zd2/obj/Debug/net8.0/zd2.csproj.CoreCompileInputs.cache
+/home/an_andrianova/program_lab5/zd2/obj/Debug/net8.0/zd2.dll
+/home/an_andrianova/program_lab5/zd2/obj/Debug/net8.0/refint/zd2.dll
+/home/an_andrianova/program_lab5/zd2/obj/Debug/net8.0/zd2.pdb
+/home/an_andrianova/program_lab5/zd2/obj/Debug/net8.0/zd2.genruntimeconfig.cache
+/home/an_andrianova/program_lab5/zd2/obj/Debug/net8.0/ref/zd2.dll

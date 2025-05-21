@@ -1,0 +1,14 @@
+/home/an_andrianova/program_lab5/zd1/bin/Debug/net8.0/zd1
+/home/an_andrianova/program_lab5/zd1/bin/Debug/net8.0/zd1.deps.json
+/home/an_andrianova/program_lab5/zd1/bin/Debug/net8.0/zd1.runtimeconfig.json
+/home/an_andrianova/program_lab5/zd1/bin/Debug/net8.0/zd1.dll
+/home/an_andrianova/program_lab5/zd1/bin/Debug/net8.0/zd1.pdb
+/home/an_andrianova/program_lab5/zd1/obj/Debug/net8.0/zd1.GeneratedMSBuildEditorConfig.editorconfig
+/home/an_andrianova/program_lab5/zd1/obj/Debug/net8.0/zd1.AssemblyInfoInputs.cache
+/home/an_andrianova/program_lab5/zd1/obj/Debug/net8.0/zd1.AssemblyInfo.cs
+/home/an_andrianova/program_lab5/zd1/obj/Debug/net8.0/zd1.csproj.CoreCompileInputs.cache
+/home/an_andrianova/program_lab5/zd1/obj/Debug/net8.0/zd1.dll
+/home/an_andrianova/program_lab5/zd1/obj/Debug/net8.0/refint/zd1.dll
+/home/an_andrianova/program_lab5/zd1/obj/Debug/net8.0/zd1.pdb
+/home/an_andrianova/program_lab5/zd1/obj/Debug/net8.0/zd1.genruntimeconfig.cache
+/home/an_andrianova/program_lab5/zd1/obj/Debug/net8.0/ref/zd1.dll
