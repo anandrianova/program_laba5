@@ -124,7 +124,10 @@ CMakeFiles/tram_system.dir/src/tram_system.cpp.o: \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc \
+ /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/stdexcept \
+ /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
+ /usr/include/c++/13/bits/cxxabi_init_exception.h \
+ /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/nested_exception.h \
  /home/an_andrianova/program_lab5/tram_system/include/tram.h \
  /home/an_andrianova/program_lab5/tram_system/include/stop.h \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \

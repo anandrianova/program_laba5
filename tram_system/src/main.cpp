@@ -2,6 +2,8 @@
 #include "commands.h"
 #include <iostream>
 
+
+//доступные команды
 void printHelp() {
     std::cout << "Available commands:\n"
               << "CREATE_TRAM <number> <stop1> <stop2> ...\n"
@@ -26,11 +28,16 @@ int main() {
         switch (cmd.type) {
             case CommandType::CREATE_TRAM: {
                 if (cmd.args.size() < 2) {
-                    std::cout << "Error: Need tram number and at least 1 stop\n";
+                    std::cout << "Error: Need tram number and at least 2 stops\n";
                     break;
                 }
-                std::vector<std::string> stops(cmd.args.begin() + 1, cmd.args.end());
-                system.createTram(cmd.args[0], stops);
+                try {
+                    std::vector<std::string> stops(cmd.args.begin() + 1, cmd.args.end());
+                    system.createTram(cmd.args[0], stops);
+                    std::cout << "Tram " << cmd.args[0] << " created successfully\n";
+                } catch (const std::invalid_argument& e) {
+                    std::cout << "Error: " << e.what() << "\n";
+                }
                 break;
             }
             case CommandType::TRAMS_IN_STOP: {

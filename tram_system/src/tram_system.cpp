@@ -2,6 +2,21 @@
 #include <algorithm>
 
 void TramSystem::createTram(const std::string& tramName, const std::vector<std::string>& stopNames) {
+    // Проверка на минимальное количество остановок
+    if (stopNames.size() < 2) {
+        throw std::invalid_argument("Tram must have at least 2 stops");
+    }
+
+    // Проверка на существование трамвая
+    if (trams.find(tramName) != trams.end()) {
+        throw std::invalid_argument("Tram with name '" + tramName + "' already exists");
+    }
+
+    // Проверка на уникальность соседних остановок
+    if (std::adjacent_find(stopNames.begin(), stopNames.end()) != stopNames.end()) {
+        throw std::invalid_argument("Consecutive stops cannot be identical");
+    }
+
     // Создаем трамвай
     trams.emplace(tramName, Tram(tramName, stopNames));
     
@@ -9,7 +24,6 @@ void TramSystem::createTram(const std::string& tramName, const std::vector<std::
     for (const auto& stopName : stopNames) {
         auto it = stops.find(stopName);
         if (it == stops.end()) {
-            // Используем emplace вместо operator[]
             stops.emplace(stopName, Stop(stopName));
             stops.at(stopName).addTram(tramName);
         } else {

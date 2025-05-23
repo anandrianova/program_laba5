@@ -3,8 +3,8 @@
 #include <sstream>
 
 Command parseCommand(const std::string& input) {
-    Command cmd;
-    std::istringstream iss(input);
+    Command cmd; // Создаем экземпляр Command для хранения информации о команде
+    std::istringstream iss(input); 
     std::string token;
     
     if (iss >> token) {

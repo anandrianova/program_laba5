@@ -12,7 +12,7 @@ enum class CommandType {
 
 struct Command {
     CommandType type;
-    std::vector<std::string> args;
+    std::vector<std::string> args; // Аргументы команды (например, номер трамвая, название остановки и т.д.)
 };
 
 Command parseCommand(const std::string& input);
